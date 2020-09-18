@@ -1,0 +1,4 @@
+for number in range(101):
+    print(number, number ** 2)
+    if number ** 2 >= 200:
+        break
